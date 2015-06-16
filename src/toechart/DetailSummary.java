@@ -242,19 +242,19 @@ public class DetailSummary extends javax.swing.JFrame {
 
     private void btnEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditActionPerformed
         // TODO add your handling code here:
-        Registeration registrationForm = new Registeration();
-        Registeration.cbxAccountType.setSelectedItem(this.txtAccountType.getText());
-        Registeration.txtFirstName.setText(this.txtFirstName.getText());
-        Registeration.txtLastName.setText(this.txtLastName.getText());
-        Registeration.txtMiddleName.setText(this.txtMiddleName.getText());
-        Registeration.cbxGender.setSelectedItem(this.txtGender.getText());
-        Registeration.txtAddress.setText(this.txtAddress.getText());
-        Registeration.txtDateOfBirth.setText(this.txtDateOfBirth.getText());
-        Registeration.txtPhoneNumber.setText(this.txtPhoneNumber.getText());
-        Registeration.txtLandLine.setText(this.txtLandLine.getText());
-        Registeration.txtEducationLevel.setText(this.txtEducationLevel.getText());
-        Registeration.txtPassword1.setText(this.txtPassword1.getText());
-        Registeration.txtPassword2.setText(this.txtPassword2.getText());
+        Registration registrationForm = new Registration();
+        Registration.cbxAccountType.setSelectedItem(this.txtAccountType.getText());
+        Registration.txtFirstName.setText(this.txtFirstName.getText());
+        Registration.txtLastName.setText(this.txtLastName.getText());
+        Registration.txtMiddleName.setText(this.txtMiddleName.getText());
+        Registration.cbxGender.setSelectedItem(this.txtGender.getText());
+        Registration.txtAddress.setText(this.txtAddress.getText());
+        Registration.txtDateOfBirth.setText(this.txtDateOfBirth.getText());
+        Registration.txtPhoneNumber.setText(this.txtPhoneNumber.getText());
+        Registration.txtLandLine.setText(this.txtLandLine.getText());
+        Registration.txtEducationLevel.setText(this.txtEducationLevel.getText());
+        Registration.txtPassword1.setText(this.txtPassword1.getText());
+        Registration.txtPassword2.setText(this.txtPassword2.getText());
         dispose();
         registrationForm.setVisible(true);
     }//GEN-LAST:event_btnEditActionPerformed

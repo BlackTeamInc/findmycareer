@@ -12,7 +12,7 @@ import java.awt.Color;
  * @author Dara
  */
 public class Welcome extends javax.swing.JFrame {
-    Registeration registrationForm;
+    Registration registrationForm;
     Login loginForm;
     /**
      * Creates new form Welcome
@@ -95,7 +95,7 @@ public class Welcome extends javax.swing.JFrame {
         // TODO add your handling code here:      
         if (registrationForm == null) 
         {
-            registrationForm = new Registeration();
+            registrationForm = new Registration();
         }
         dispose();
         registrationForm.setVisible(true);
